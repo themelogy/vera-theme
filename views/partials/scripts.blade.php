@@ -19,6 +19,7 @@
 {!! Theme::script('vendor/swiper/dist/js/swiper.min.js') !!}
 {!! Theme::script('vendor/datetimepicker/js/moment-with-locales.min.js') !!}
 {!! Theme::script('vendor/datetimepicker/js/bootstrap-datetimepicker.min.js') !!}
+@stack('js_stack')
 
 <!-- JS Page Level -->
 {!! Theme::script('js/theme.js') !!}

@@ -21,4 +21,4 @@
 {!! Theme::style('vendor/datetimepicker/css/bootstrap-datetimepicker.min.css') !!}
 {!! Theme::style('css/custom-icons.css') !!}
 <!-- Theme CSS -->
-{!! Theme::style('css/theme.min.css') !!}
+<link rel="stylesheet" href="{{ mix('/themes/vera/css/theme.min.css') }}" />

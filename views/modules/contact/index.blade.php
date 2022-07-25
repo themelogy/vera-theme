@@ -71,7 +71,7 @@
                     <h2 class="block-title"><span>{{ trans('themes::theme.contact.form') }}</span></h2>
 
                     <!-- Contact form -->
-                    @include('contact::form')
+                    @include('contact::form-ajax')
                     <!-- /Contact form -->
 
                 </div>
@@ -83,7 +83,7 @@
     <!-- /PAGE -->
 
     <section style="height: 300px;">
-        @gmap('300px', '16', 'img/favicon.png')
+        @include('contact::map')
     </section>
 
 @stop

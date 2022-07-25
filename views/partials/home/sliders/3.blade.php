@@ -4,7 +4,7 @@
 
         <div class="main-slider">
             <div>
-            {!! Form::open(['route' => 'carrental.reservation.update', 'method' => 'put']) !!}
+            {!! Form::open(['route' => 'carrental.index', 'method' => 'post']) !!}
                 <!-- Slide 2 -->
                 <div class="item slide2 ver2">
                     <div class="caption">
